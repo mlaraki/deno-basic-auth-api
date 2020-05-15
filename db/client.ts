@@ -2,7 +2,7 @@ import { Client } from "https://deno.land/x/postgres/mod.ts";
 import { config } from 'https://deno.land/x/dotenv/mod.ts';
 
 const ENV = config();
-const psql_config = `postgres://${ENV.CONNECTION}`;
+const psql_config = ENV.CONNECTION ;
 const client = new Client(psql_config);
 
 try {
