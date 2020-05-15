@@ -3,10 +3,6 @@
 ## Postgres
 
 ```sql
-CREATE DATABASE <DATABASE NAME>;
-```
-
-```sql
 CREATE TABLE users (
 	ID SERIAL PRIMARY KEY,
 	username VARCHAR(30) NOT NULL,
