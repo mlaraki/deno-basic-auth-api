@@ -20,7 +20,7 @@ CREATE TABLE users (
 ## Environment variables
 
 ```bash
-echo "CONNECTION=<Your Postgres connection string>" > .env && rm -rf .env.example
+echo "CONNECTION='<Your Postgres connection string>'" > .env && rm -rf .env.example
 ```
 
 ## Run
